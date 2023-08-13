@@ -58,4 +58,10 @@ Topics:
     match > group > project
 
 
+Task:
+Please Complete the task before August 20, 2023
+  1. https://github.com/rvsp/database/blob/master/mongodb/product-queries.txt
+  2. https://github.com/rvsp/database/blob/master/mongodb/day-2/database-design-zen-class.txt
+
+
   
