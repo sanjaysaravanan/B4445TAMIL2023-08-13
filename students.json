@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Sam",
+    "subject": "Sci",
+    "mark": 78
+  },
+  {
+    "name": "Sam",
+    "subject": "Eng",
+    "mark": 95
+  },
+  {
+    "name": "Sam",
+    "subject": "Maths",
+    "mark": 99
+  },
+  {
+    "name": "Sanjay",
+    "subject": "Sci",
+    "mark": 66
+  },
+  {
+    "name": "Sanjay",
+    "subject": "Eng",
+    "mark": 97
+  },
+  {
+    "name": "Sanjay",
+    "subject": "Maths",
+    "mark": 96
+  },
+  {
+    "name": "Daniel",
+    "subject": "Sci",
+    "mark": 88
+  },
+  {
+    "name": "Daniel",
+    "subject": "Eng",
+    "mark": 99
+  },
+  {
+    "name": "Daniel",
+    "subject": "Maths",
+    "mark": 87
+  }
+]

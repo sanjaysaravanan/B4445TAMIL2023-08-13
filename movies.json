@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Leo",
+    "artistIds": [
+      1,
+      3
+    ],
+    "durations": 120
+  },
+  {
+    "name": "Jailer",
+    "artistIds": [
+      2,
+      5,
+      4
+    ],
+    "durations": 150
+  }
+]

@@ -1,0 +1,61 @@
+
+Topics:
+
+  1. Filter and Sorting
+    query, projection, options ( sort, limit )
+
+    Filter Exercises:
+      1. Filter all the books writen after 2010
+        query: { publishedYear: { $gt: 2010 }  }
+      2. Filter all the books which has less than 300 pages
+      3. Filter all the book which contains 'The' in the title
+      4. Find all the books written btween 2000 - 2010
+      5. Find all the books writen by Emily Adams/Daniel Brown/Sophia Martinez
+      6. Find all the books not writen by Emily Adams/Daniel Brown/Sophia Martinez
+      7. Find the books expect the one with BookId 'B009'
+    
+    Projection:
+      1. select only the title, author
+      2. exclude the publishedYear, title, pages
+    
+    Sorting:
+      1. Sort the books by pages
+      2. Sort the books by desc order of Title
+    
+    Limit & Skip:
+      1. first four books
+      2. Second four books
+
+  2. Cursor ( starting point of the return query result ) 
+
+    pretty ---> contents in more readable format
+    limit ---> limts the contents with the specified number
+      db.books.find().limit(4);
+    skip ---> skips the contents by specified number
+      db.books.find().skip(4);
+    sorting ---> sorting cursor method takes an object as params
+    Object of feild with asc / desc
+      eg: db.todos.find().sort( { id: -1  } );
+
+    Compound sorting, when sorting is based more than one feild,
+      eg:
+        db.students.find().sort({ name: 1, marks: -1 });
+
+    Count() no params ---> return the count of the filtered records
+    egs: how many todos does userId 1 have,
+      db.todos.find({ userId: 1 }).count(); // ans: 20
+
+    forEach, map ---> same functionality as normal js map, forEach
+    toArray() ---> returns array of records not the cursor( where You can do some more operations )
+
+  3. Delete
+  
+  4. Update
+
+  5. Aggregation
+    Pipeline with different stages of filter or manipulation ( max, avg, min ... )
+
+    match > group > project
+
+
+  

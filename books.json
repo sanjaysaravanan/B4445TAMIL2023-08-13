@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {
+      "$oid": "64d76a2e728724306f15ee18"
+    },
+    "bookId": "B003",
+    "title": "Whispers in the Wind",
+    "author": "Emily Adams",
+    "publishedYear": 2018,
+    "pages": 256
+  },
+  {
+    "_id": {
+      "$oid": "64d76a2e728724306f15ee16"
+    },
+    "bookId": "B001",
+    "title": "The Enigmatic Quest",
+    "author": "Amanda Johnson",
+    "publishedYear": 2010,
+    "pages": 328
+  },
+  {
+    "_id": {
+      "$oid": "64d76a2e728724306f15ee17"
+    },
+    "bookId": "B002",
+    "title": "Echoes of Eternity",
+    "author": "Michael Smith",
+    "publishedYear": 2005,
+    "pages": 412
+  }
+]
